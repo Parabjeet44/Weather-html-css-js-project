@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+/* Header */
+
+header h1,h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Left div*/
+
+.left-div {
+    width: 50%; /* Set the width of the left div to 50% of the viewport */
+    float: left; /* Float the left div to the left */
+    height: 100vh; /* Set the height of the left div to the full height of the viewport */
+}
+
+/*Right div*/
+
+.right-div {
+    width: 50%; /* Set the width of the right div to 50% of the viewport */
+    float: right; /* Float the right div to the right */ 
+    height: 100vh; /* Set the height of the right div to the full height of the viewport */
+}
+
+/*h3 Weather*/
+#weather {
+    margin-left: 30px;
+}
+
+/*h3 wind*/
+#wind{
+    margin-left:20px;
+}
